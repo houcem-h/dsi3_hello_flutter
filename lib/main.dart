@@ -4,7 +4,12 @@ void main() {
   runApp(
     MaterialApp(
       home: Center(
-          child: Text('Hello DSI3 to Flutter workshop'),
+          child: Text(
+              'Hello Flutter',
+              style: TextStyle(
+                color: Colors.cyan
+              ),
+          ),
       ),
     ),
   );
